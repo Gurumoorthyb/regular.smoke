@@ -1,0 +1,337 @@
+* {
+    font-family: 'Times New Roman';
+    font-size: large;
+    font-weight: 100;
+    cursor: url(https://static.wixstatic.com/media/c6730f_af30be7…~mv2.png/v1/fill/w_119,h_109/c6730f_af30be7…~mv2.png) 60 55, auto;
+}
+
+body,
+html {
+    background-image: linear-gradient(rgba(56, 76, 141, 0.75), rgba(241, 164, 224, 0.75));
+    background-position: center;
+}
+
+.logobar {
+    margin-right: 88%;
+    height: 12%;
+    display: flex;
+}
+
+.logo {
+    width: 100px;
+    border-radius: 3rem;
+    display: block;
+    margin: auto;
+    padding: 1rem;
+}
+
+.portfolioHeader {
+    padding: auto;
+    margin: auto;
+    height: auto;
+}
+
+.text {
+    font-size: 30px;
+    color: rgb(8, 8, 8);
+    background-image: linear-gradient(rgba(135, 158, 235, 0.75));
+    text-align: center;
+    float: center;
+    margin-top: -3rem;
+}
+
+.topBanner {
+    padding: 1px;
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.navbar ul li {
+    list-style: square;
+    display: inline-table;
+    margin: 0 20px;
+    position: relative;
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar ul li a:hover {
+    width: 100%;
+    color: yellow;
+    cursor: pointer;
+    border-bottom: solid brown 2px;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    padding: 3px;
+
+}
+
+.bar {
+    display: block;
+    width: 35px;
+    height: 3px;
+    margin: 10px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+.hero {
+    display: flex;
+    padding: 2vw;
+    justify-content: center;
+}
+
+.rightPart {
+    justify-content: center;
+}
+
+.leftPart {
+    max-width: auto;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 1vw;
+}
+
+.description {
+    font-size: 2rem;
+}
+
+p {
+    text-align: left;
+}
+
+.container {
+    padding-top: 20px;
+    display: flex;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.portfolioPicture {
+    width: 65%;
+    margin-left: 20%;
+    border: #0e0a0f solid 2px;
+    border-radius: 50%;
+    filter: blur(2px);
+
+}
+
+.content {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    background-color: inherit;
+}
+
+h4 {
+    text-align: center;
+}
+
+p {
+    padding: 10px;
+    font-weight: 100;
+    line-height: 35px;
+    font-size: 18px;
+}
+
+button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 85px;
+    font-weight: bold;
+    border: 2px solid #7816da;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    transition: 0.5s;
+}
+
+button:hover span {
+    width: 100%;
+
+}
+
+button:hover {
+    border: none;
+    background-color: rgb(103, 162, 214);
+}
+
+.Skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.leftSideSkill {
+    margin: auto;
+    border: 5px solid rgb(190, 188, 188);
+    background-color: cadetblue;
+    text-align: center;
+
+}
+
+.hideContent {
+    display: none;
+}
+
+.leftSideSkill h1:hover+.hideContent {
+    display: block;
+    width: 60%;
+    margin: auto;
+}
+
+.rightSideSkill {
+    justify-content: flex-end;
+}
+
+.skillSet {
+    height: auto;
+    align-items: center;
+    border-radius: 1vw;
+    border: 2px solid gray;
+}
+
+
+.footerDesc {
+    width: auto;
+    padding: auto;
+    margin: 0;
+}
+
+.footer {
+    background-color: #0e0a0f;
+    display: block;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.formSection {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#form-control {
+    display: block;
+    width: 50%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #f706ba;
+    background-color: rgba(0, 0, 0, 0.01);
+    background-clip: padding-box;
+    border: 1px solid #dd234b;
+    border-radius: 0.25rem;
+}
+
+.formSubmit {
+    background-color: navajowhite;
+    color: black;
+}
+.buttonContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.socialMeadiaLinks {
+    padding: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ion-icon {
+    color: #f706ba;
+    cursor: pointer;
+    font-size: 50px;
+}
+
+ion-icon:hover {
+    background-color: violet;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    body {
+        background-color: rgb(243, 57, 10);
+    }
+   
+    .navbar ul li{
+        display: flex;
+    }
+    h1 {
+        text-align: center;
+        font-size: 100px;
+        width: 100%;
+
+    }
+    .title {
+        font-size:2rem;
+        text-align: center;
+        width: 100%;
+
+    }
+    .description{
+        font-size: 1rem;
+        width: 100%;
+        text-align: center;
+    }
+    .linksExternal{
+        display: flex;
+        text-align: center;
+
+    }
+    .hero {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 2vw;
+        justify-content: center;
+    }
+    .container {
+        padding-top: 20px;
+        display: block;
+        text-align: center;
+        background-color: whitesmoke;
+    }
+    .leftSideSkill {
+        width: 100%;
+        border: 1px solid rgb(190, 188, 188);
+        background-color: cadetblue;
+    }
+    .Skills {
+        display: block;
+        justify-content: space-evenly;
+    }
+    h3{
+        font-size: 20px;
+    }
+    .rightSideSkill {
+width: 100%;
+    }
+}
